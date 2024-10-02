@@ -94,3 +94,6 @@ CONFIG_PACKAGE_luci-lib-base=y
 CONFIG_PACKAGE_luci-lib-ipkg=y
 CONFIG_PACKAGE_luci-lua-runtime=y
 CONFIG_PACKAGE_wpad-openssl=y
+#我测试增加的依赖包
+CONFIG_PACKAGE_luci-theme-edge=y
+CONFIG_PACKAGE_luci-app-store=y

@@ -17,11 +17,9 @@ CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_luci-app-uhttpd=n
+CONFIG_PACKAGE_luci-app-uhttpd=y
 #CONFIG_PACKAGE_luci-ssl-openssl=y
 #删除插件
-CONFIG_PACKAGE_uhttpd=n
-CONFIG_PACKAGE_uhttpd-mod-ubus=n
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-ddns=n
 CONFIG_PACKAGE_luci-app-vlmcsd=n

@@ -26,7 +26,8 @@ UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
 #====我的增加
 UPDATE_PACKAGE "edge" "kiddin9/luci-theme-edge" "master"
-UPDATE_PACKAGE "luci-app-store" "/linkease/istore" "main"
+UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
+UPDATE_PACKAGE "luci-app-nginx" "arenekosreal/luci-app-nginx" "master"
 #================================
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"

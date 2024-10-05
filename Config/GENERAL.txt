@@ -19,6 +19,7 @@ CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_luci-app-frpc=y
 
 # 不使用 uhttpd
 # CONFIG_PACKAGE_luci-app-uhttpd is not set

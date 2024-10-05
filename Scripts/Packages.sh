@@ -25,6 +25,8 @@ UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
 #====我的增加
+UPDATE_PACKAGE "luci-theme-design" "SAENE/luci-theme-design" "js"
+UPDATE_PACKAGE "luci-theme-alpha" "derisamedia/luci-theme-alpha" "master"
 UPDATE_PACKAGE "edge" "kiddin9/luci-theme-edge" "master"
 UPDATE_PACKAGE "luci-app-store" "linkease/istore" "main"
 UPDATE_PACKAGE "luci-app-nginx" "arenekosreal/luci-app-nginx" "master"

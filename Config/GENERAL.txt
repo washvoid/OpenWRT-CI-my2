@@ -17,8 +17,27 @@ CONFIG_PACKAGE_luci-app-store=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_luci-app-uhttpd=y
-#CONFIG_PACKAGE_luci-ssl-openssl=y
+
+# 不使用 uhttpd
+# CONFIG_PACKAGE_luci-app-uhttpd is not set
+# CONFIG_PACKAGE_luci-ssl-openssl is not set
+# CONFIG_PACKAGE_uhttpd is not set
+# CONFIG_PACKAGE_uhttpd-mod-ubus is not set
+
+# 使用 nginx
+CONFIG_PACKAGE_nginx=y
+CONFIG_PACKAGE_nginx-ssl=y
+
+# Common nginx modules
+CONFIG_PACKAGE_nginx-mod-luci-ssl=y  # LuCI SSL support for Nginx
+CONFIG_PACKAGE_nginx-mod-luci=y      # LuCI web interface support
+CONFIG_PACKAGE_nginx-mod-ubus=y      # UBUS integration for Nginx
+CONFIG_PACKAGE_nginx-mod-stream=y    # Stream module support
+
+# LuCI interface for managing nginx
+CONFIG_PACKAGE_luci-app-nginx=y
+
+
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-ddns=n
